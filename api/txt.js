@@ -6,6 +6,6 @@ export default function handler(req, res) {
   }
 
   res.setHeader("Content-Type", "text/plain; charset=utf-8");
-  res.setHeader("Content-Disposition", "attachment; filename=metin.txt");
+  res.setHeader("Content-Disposition", "attachment; filename=EnForce.txt");
   res.send(text);
 }
